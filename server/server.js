@@ -15,9 +15,7 @@ app.get('/currency', function(req, res) {
     res.send(responseString);
 });
 
-app.get(`/currency/`);
-
 // Start up the server
-app.listen(port, function() {
+app.listen(port, () => {
     console.log('listening on port', port);
 });

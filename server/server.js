@@ -11,9 +11,11 @@ app.get('/currency', function(req, res) {
     let responseString = 'hello! ' + currency();
 
     // YOUR CODE HERE
-    console.log(currency());
+    //console.log(currency());
     res.send(responseString);
 });
+
+app.get(`/currency/`);
 
 // Start up the server
 app.listen(port, function() {

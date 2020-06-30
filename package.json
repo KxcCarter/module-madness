@@ -1,15 +1,24 @@
 {
   "name": "module-madness-start",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this challenge, fork the provided GitHub repo, clone it and run `npm install`. After doing that, you will create three modules as specified below, update the *server.js* file to use these modules!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js"
   },
-  "author": "",
+  "author": "Kenneth Carter",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KxcCarter/module-madness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KxcCarter/module-madness/issues"
+  },
+  "homepage": "https://github.com/KxcCarter/module-madness#readme"
 }
